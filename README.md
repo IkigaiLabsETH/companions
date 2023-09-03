@@ -56,6 +56,8 @@ NEXT_PUBLIC_APP_URL="http://localhost:3000"
 
 ### Setup Prisma
 
+https://www.cockroachlabs.com/docs/stable/connect-to-the-database
+
 ```shell
 npx prisma db push
 
