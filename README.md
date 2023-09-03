@@ -1,67 +1,19 @@
 # Goal: including voices for the PFPs (Eleven Labs API) and the ability to talk to them (with Whisper API)
 
+"Imagine owning a digital persona that's not just a static image but a vibrant, evolving entity, driven by AI. With PFP 2.0, you own an NFT that grants you a unique, fine-tuned AI model, generating daily content and insights tailored to your creative and curatorial needs. Unlock the future of digital identity and content creation—be part of the next-gen NFT revolution."
 
-Features:
+In a world saturated with NFTs and digital personas, PFP 2.0 introduces a groundbreaking concept that takes personalized digital identity to the next level. Gone are the days when your Profile Picture (PFP) was just a static representation of your digital self. 
 
-- Tailwind design
-- Tailwind animations and effects
-- Full responsiveness
-- Clerk Authentication (Email, Google, 9+ Social Logins)
-- Client form validation and handling using react-hook-form
-- Server error handling using react-toast
-- Image Generation Tool (Open AI)
-- Video Generation Tool (Replicate AI)
-- Conversation Generation Tool (Open AI)
-- Music Generation Tool (Replicate AI)
-- Page loading state
-- Stripe monthly subscription
-- Free tier with API limiting
-- How to write POST, DELETE, and GET routes in route handlers (app/api)
-- How to fetch data in server react components by directly accessing database (WITHOUT API! like Magic!)
-- How to handle relations between Server and Child components!
-- How to reuse layouts
-- Folder structure in Next 13 App Router
+PFP 2.0 is an ecosystem powered by cutting-edge AI models that craft daily videos, unique to each avatar's personality, cultural background, taste, and preferences. Your NFT is your passport into this new paradigm, granting you ownership over a bespoke AI model that leverages a multitude of specialized AI agents.
 
-### Setup .env file
+**Why PFP 2.0?**  
+- **Interactivity**: Your avatar learns and evolves, offering you content and insights that mature over time.
+- **Exclusivity**: Secure your place in the ecosystem with an NFT, ensuring a tailored experience.
+- **Engagement**: Daily videos keep the community engaged, and every interaction is a step toward fine-tuning your digital persona.
 
+**Monetization & Value for Creators**  
+Not just an art project, PFP 2.0 offers a revolutionary platform for creators, curators, and collectors to glean valuable insights from AI, opening up fresh avenues for collaboration.
 
-```js
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
-
-OPENAI_API_KEY=
-REPLICATE_API_TOKEN=
-
-PINECONE_API_KEY=
-PINECONE_ENVIRONMENT=
-PINECONE_INDEX=
-
-UPSTASH_REDIS_REST_URL=
-UPSTASH_REDIS_REST_TOKEN=
-
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
-
-DATABASE_URL=
-
-STRIPE_API_KEY=
-STRIPE_WEBHOOK_SECRET=
-
-NEXT_PUBLIC_APP_URL="http://localhost:3000"
-```
-
-### Setup Prisma
-
-https://www.cockroachlabs.com/docs/stable/connect-to-the-database
-https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-cockroachdb
-
-DATABASE_URL="postgresql://root@localhost:26257?sslmode=disable"
-
-DATABASE_URL="postgresql://<myusername>:<mypassword>@<short-id>.<region>.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full&sslrootcert=$HOME/.postgresql/root.crt&options=--<mycluster>"
 
 
 ```shell
