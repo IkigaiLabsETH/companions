@@ -57,6 +57,12 @@ NEXT_PUBLIC_APP_URL="http://localhost:3000"
 ### Setup Prisma
 
 https://www.cockroachlabs.com/docs/stable/connect-to-the-database
+https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-cockroachdb
+
+DATABASE_URL="postgresql://root@localhost:26257?sslmode=disable"
+
+DATABASE_URL="postgresql://<myusername>:<mypassword>@<short-id>.<region>.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full&sslrootcert=$HOME/.postgresql/root.crt&options=--<mycluster>"
+
 
 ```shell
 npx prisma db push
